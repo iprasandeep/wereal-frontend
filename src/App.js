@@ -1,11 +1,11 @@
 import React from 'react';
-import Home from './components/pages/home/Home';
+import Register from './components/register/Register';
+import Home  from './components/pages/home/Home'
 function App() {
   return (
     <div>
-      <h3>
+        {/* <Register /> */}
         <Home />
-      </h3>
     </div>
   );
 }
